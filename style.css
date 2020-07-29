@@ -1,6 +1,7 @@
 .container {
 	width: 500px;
 	align-content: center;
+	margin: 0 auto;
 }
 
 .grid {
@@ -8,10 +9,10 @@
 	width: 400px;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #dcd6bc;
+	background-color: rgb(102, 94, 50);
 	margin-left: 50px;
 	margin-top: 20px;
-	border: 10px solid #dcd6bc;
+	border: 10px solid #dcd6bcbe;
 	margin-bottom: 10px;
 }
 
@@ -24,7 +25,7 @@ div {
 	height: 40px;
 	width: 40px;
 	border: 5px solid;
-	border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+	border-color: #fcf1c5 #beb58a #b8ae82 #ebe1ae;
 	box-sizing: border-box;
 }
 
@@ -32,8 +33,8 @@ div {
 	height: 40px;
 	width: 40px;
 	border: 2px solid;
-	background-color: #cecab7;
-	border-color: #9c998d;
+	background-color: #d1d1cf;
+	border-color: #b3b3b3;
 	box-sizing: border-box;
 }
 
@@ -46,22 +47,22 @@ div {
 }
 
 .one {
-	color: #e76346;
+	color: red;
 }
 
 .two {
-	color: #4199d3;
+	color: rgb(100, 201, 235);
 }
 
 .three {
-	color: #57da59;
+	color: greenyellow;
 }
 
 .four {
-	color: #bb41d3;
+	color: purple;
 }
 
 #result {
 	margin-top: 5px;
-	color: #e76346;
+	color: orangered;
 }
